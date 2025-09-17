@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+
+    
     <!-- Header y Nav -->
     <header>
       <div class="container">
@@ -36,6 +38,8 @@
         </nav>
       </div>
     </header>
+
+
     <!-- Hero -->
     <section class="hero" id="inicio">
       <div class="container">
@@ -50,6 +54,8 @@
         </div>
       </div>
     </section>
+
+
     <!-- Sobre mi -->
     <section id="sobre-mi">
       <div class="container">
@@ -66,5 +72,160 @@
         </div>
       </div>
     </section>
+
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="skills">
+      <div class="container">
+        <h2 class="section-title">Habilidades Técnicas</h2>
+        <div class="skills-container">
+          <div class="skill-card">
+            <i class="fa-brands fa-python"></i>
+            <h3>Python</h3>
+            <p>Scripting eficiente para automatización.</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-docker"></i>
+            <h3>Docker</h3>
+            <p>Contenerización de entornos de desarrollo y despliegue. Creación de imágenes personalizadas, manejo de volúmenes y redes.</p>
+          </div>
+          <div class="skill-card">
+            <i class="fab fa-node-js"></i>
+            <h3>Node.js</h3>
+            <p>Desarrollo de scripts backend y automatización de flujos. Integración con APIs, manejo de eventos y ejecución de tareas asincrónicas.</p>
+          </div>
+          <div class="skill-card">
+            <i class="fas fa-database"></i>
+            <h3>Bases de Datos</h3>
+            <p>Experiencia con SQL. Gestión de bases de datos con SQL Server Express.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Proyectos -->
+    <section id="proyectos">
+      <div class="container">
+        <h2 class="section-title">Proyectos</h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Proyecto Automatización">
+            </div>
+            <div class="project-info">
+              <h3>Sistema de Automatización</h3>
+              <p>Automatización de procesos empresariales utilizando Python y n8n.</p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>n8n</span>
+                <span>SQL</span>
+              </div>
+              <a href="https://www.youtube.com/watch?v=7uBqNgxAuBA&list=RD7uBqNgxAuBA&start_radio=1" class="project-link">Ver Proyecto →</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1719204718581-5c95889c8ec9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Proyecto Chatbot">
+            </div>
+            <div class="project-info">
+              <h3>Chatbot Inteligente</h3>
+              <p>Chatbot desarrollado con Node.js y Botmaker para actualización de entregas de mercadería automatizada.</p>
+              <div class="project-tech">
+                <span>Node.js</span>
+                <span>Botmaker</span>
+                <span>API</span>
+              </div>
+              <a href="https://www.youtube.com/watch?v=7uBqNgxAuBA&list=RD7uBqNgxAuBA&start_radio=1" class="project-link">Ver Proyecto →</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Proyecto Web App">
+            </div>
+            <div class="project-info">
+              <h3>Aplicación Web</h3>
+              <p>Desarrollo de una aplicación web responsive con funciones CRUD y panel de administración.</p>
+              <div class="project-tech">
+                <span>HTML/CSS</span>
+                <span>JavaScript</span>
+                <span>Node.js</span>
+              </div>
+              <a href="https://www.youtube.com/watch?v=7uBqNgxAuBA&list=RD7uBqNgxAuBA&start_radio=1" class="project-link">Ver Proyecto →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Redes Sociales -->
+    <section id="redes">
+      <div class="container">
+        <h2 class="section-title">Redes</h2>
+        <div class="social-container">
+          <div class="social-item">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/santiezsa">GitHub</a>
+          </div>
+          <div class="social-item">
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/santiagoesanchez">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactame</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Hablemos sobre tu proyecto</h3>
+                    <p>Estoy disponible para trabajo freelance y oportunidades de proyectos interesantes. No dudes en contactarme si querés colaborar conmigo.</p>
+                    <p><i class="fas fa-envelope"></i> santiagoesdev@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina</p>
+                    <p><i class="fas fa-phone"></i> +54 11 2345-6789</p>
+                </div>
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/xjkeqydk" method="POST">
+                        <div class="form-group">
+                            <label for="name">Tu Nombre</label>
+                            <input type="text" id="name" name="name" placeholder="Cosme Fulanito" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Tu Email</label>
+                            <input type="email" id="email" name="email" placeholder="cosmefulanito@ejemplo.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tu Mensaje</label>
+                            <textarea id="message" name="message" placeholder="Hola, me gustaría..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">SantiagoSanchez</div>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#redes">Redes</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <p>2025 Santiago Sánchez. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
   </body>
 </html>
