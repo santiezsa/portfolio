@@ -1,0 +1,86 @@
+/* Variables de colores */
+:root
+{
+    --bg-primary: #0a0a0f;
+    --bg-secondary: #151520;
+    --text-primary: #ffffff;
+    --text-secondary: #b0b0c0;
+    --accent-primary: #ff2a6d;
+    --accent-secondary: #d1005f;
+    --card-bg: rgba(30, 30, 40, 0.6);
+    --gradient: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+}
+
+/*  Estilos generales */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+body
+{
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section
+{
+    padding: 100px 0;
+}
+
+.section-title
+{
+    font-size: 2.8rem;
+    margin-bottom: 60px;
+    text-align: center;
+    position: relative;
+    font-weight: 700;
+}
+
+.section-title::before
+{
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: var(--gradient);
+    border-radius: 2px;
+}
+
+.btn
+{
+    display: inline-block;
+    padding: 14px 35px;
+    background: var(--gradint);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(255, 42, 109, 0.3);
+    letter-spacing: 0.5px;
+}
+
+.btn:hover 
+{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(255, 42, 109, 0.5);
+}
