@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 body
@@ -307,26 +307,7 @@ nav
     font-size: 1.1rem;
     line-height: 1.8;
 }
-/* .about-image 
-{
-    flex: 1;
-    min-width: 300px;
-    text-align: center;
-}
-.about-image img 
-{
-    max-width: 100%;
-    border-radius: 15px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
-    transition: all 0.5s ease;
-}
-.about-image img:hover 
-{
-    transform: translateY(-10px);
-    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4);
-} */
 
-/* Habilidades */
 
 .skills
 {
